@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ float grade;
+ printf("Enter the grade for the student (in percentages) : \n");
+scanf("%f", grade);
+if (grade>=90)
+{
+ printf("The student got an A");
+ }
+else if (grade>=70 && grade <= 89.99 )
+{
+printf("The student got a B");
+ }
+else if (grade>=50 && grade >= 69.99)
+{
+ printf("The student got a C");
+ }
+else 
+{
+printf("The student failed");
+}
+return 0;
+}
